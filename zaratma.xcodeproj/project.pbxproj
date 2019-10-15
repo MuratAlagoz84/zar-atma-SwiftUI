@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A55AECB23538EB6000C51A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A55AECA23538EB6000C51A3 /* Assets.xcassets */; };
+		9AD4DEE72353298F008361AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4DEE62353298F008361AA /* AppDelegate.swift */; };
+		9AD4DEE92353298F008361AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4DEE82353298F008361AA /* SceneDelegate.swift */; };
+		9AD4DEEB2353298F008361AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4DEEA2353298F008361AA /* ContentView.swift */; };
+		9AD4DEF023532993008361AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4DEEF23532993008361AA /* Preview Assets.xcassets */; };
+		9AD4DEF323532993008361AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4DEF123532993008361AA /* LaunchScreen.storyboard */; };
+		9AD4DEFE23532993008361AA /* zaratmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4DEFD23532993008361AA /* zaratmaTests.swift */; };
+		9AD4DF0923532993008361AA /* zaratmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4DF0823532993008361AA /* zaratmaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD4DEFA23532993008361AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD4DEDB2353298F008361AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD4DEE22353298F008361AA;
+			remoteInfo = zaratma;
+		};
+		9AD4DF0523532993008361AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD4DEDB2353298F008361AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD4DEE22353298F008361AA;
+			remoteInfo = zaratma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A55AECA23538EB6000C51A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Assets.xcassets"; sourceTree = "<group>"; };
+		9A55AECC2355AE0E000C51A3 /* zaratma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zaratma.entitlements; sourceTree = "<group>"; };
+		9AD4DEE32353298F008361AA /* zaratma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zaratma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD4DEE62353298F008361AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD4DEE82353298F008361AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AD4DEEA2353298F008361AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AD4DEEF23532993008361AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AD4DEF223532993008361AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD4DEF423532993008361AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD4DEF923532993008361AA /* zaratmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zaratmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD4DEFD23532993008361AA /* zaratmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zaratmaTests.swift; sourceTree = "<group>"; };
+		9AD4DEFF23532993008361AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD4DF0423532993008361AA /* zaratmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zaratmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD4DF0823532993008361AA /* zaratmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zaratmaUITests.swift; sourceTree = "<group>"; };
+		9AD4DF0A23532993008361AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD4DEE02353298F008361AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4DEF623532993008361AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4DF0123532993008361AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD4DEDA2353298F008361AA = {
+			isa = PBXGroup;
+			children = (
+				9AD4DEE52353298F008361AA /* zaratma */,
+				9AD4DEFC23532993008361AA /* zaratmaTests */,
+				9AD4DF0723532993008361AA /* zaratmaUITests */,
+				9AD4DEE42353298F008361AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD4DEE42353298F008361AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4DEE32353298F008361AA /* zaratma.app */,
+				9AD4DEF923532993008361AA /* zaratmaTests.xctest */,
+				9AD4DF0423532993008361AA /* zaratmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD4DEE52353298F008361AA /* zaratma */ = {
+			isa = PBXGroup;
+			children = (
+				9A55AECC2355AE0E000C51A3 /* zaratma.entitlements */,
+				9AD4DEE62353298F008361AA /* AppDelegate.swift */,
+				9AD4DEE82353298F008361AA /* SceneDelegate.swift */,
+				9AD4DEEA2353298F008361AA /* ContentView.swift */,
+				9AD4DEF123532993008361AA /* LaunchScreen.storyboard */,
+				9AD4DEF423532993008361AA /* Info.plist */,
+				9A55AECA23538EB6000C51A3 /* Assets.xcassets */,
+				9AD4DEEE23532993008361AA /* Preview Content */,
+			);
+			path = zaratma;
+			sourceTree = "<group>";
+		};
+		9AD4DEEE23532993008361AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4DEEF23532993008361AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AD4DEFC23532993008361AA /* zaratmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4DEFD23532993008361AA /* zaratmaTests.swift */,
+				9AD4DEFF23532993008361AA /* Info.plist */,
+			);
+			path = zaratmaTests;
+			sourceTree = "<group>";
+		};
+		9AD4DF0723532993008361AA /* zaratmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4DF0823532993008361AA /* zaratmaUITests.swift */,
+				9AD4DF0A23532993008361AA /* Info.plist */,
+			);
+			path = zaratmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD4DEE22353298F008361AA /* zaratma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4DF0D23532993008361AA /* Build configuration list for PBXNativeTarget "zaratma" */;
+			buildPhases = (
+				9AD4DEDF2353298F008361AA /* Sources */,
+				9AD4DEE02353298F008361AA /* Frameworks */,
+				9AD4DEE12353298F008361AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zaratma;
+			productName = zaratma;
+			productReference = 9AD4DEE32353298F008361AA /* zaratma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD4DEF823532993008361AA /* zaratmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4DF1023532993008361AA /* Build configuration list for PBXNativeTarget "zaratmaTests" */;
+			buildPhases = (
+				9AD4DEF523532993008361AA /* Sources */,
+				9AD4DEF623532993008361AA /* Frameworks */,
+				9AD4DEF723532993008361AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD4DEFB23532993008361AA /* PBXTargetDependency */,
+			);
+			name = zaratmaTests;
+			productName = zaratmaTests;
+			productReference = 9AD4DEF923532993008361AA /* zaratmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD4DF0323532993008361AA /* zaratmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4DF1323532993008361AA /* Build configuration list for PBXNativeTarget "zaratmaUITests" */;
+			buildPhases = (
+				9AD4DF0023532993008361AA /* Sources */,
+				9AD4DF0123532993008361AA /* Frameworks */,
+				9AD4DF0223532993008361AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD4DF0623532993008361AA /* PBXTargetDependency */,
+			);
+			name = zaratmaUITests;
+			productName = zaratmaUITests;
+			productReference = 9AD4DF0423532993008361AA /* zaratmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD4DEDB2353298F008361AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Murat Alagöz";
+				TargetAttributes = {
+					9AD4DEE22353298F008361AA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					9AD4DEF823532993008361AA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9AD4DEE22353298F008361AA;
+					};
+					9AD4DF0323532993008361AA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9AD4DEE22353298F008361AA;
+					};
+				};
+			};
+			buildConfigurationList = 9AD4DEDE2353298F008361AA /* Build configuration list for PBXProject "zaratma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD4DEDA2353298F008361AA;
+			productRefGroup = 9AD4DEE42353298F008361AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD4DEE22353298F008361AA /* zaratma */,
+				9AD4DEF823532993008361AA /* zaratmaTests */,
+				9AD4DF0323532993008361AA /* zaratmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD4DEE12353298F008361AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4DEF323532993008361AA /* LaunchScreen.storyboard in Resources */,
+				9A55AECB23538EB6000C51A3 /* Assets.xcassets in Resources */,
+				9AD4DEF023532993008361AA /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4DEF723532993008361AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4DF0223532993008361AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD4DEDF2353298F008361AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4DEE72353298F008361AA /* AppDelegate.swift in Sources */,
+				9AD4DEE92353298F008361AA /* SceneDelegate.swift in Sources */,
+				9AD4DEEB2353298F008361AA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4DEF523532993008361AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4DEFE23532993008361AA /* zaratmaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4DF0023532993008361AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4DF0923532993008361AA /* zaratmaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD4DEFB23532993008361AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD4DEE22353298F008361AA /* zaratma */;
+			targetProxy = 9AD4DEFA23532993008361AA /* PBXContainerItemProxy */;
+		};
+		9AD4DF0623532993008361AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD4DEE22353298F008361AA /* zaratma */;
+			targetProxy = 9AD4DF0523532993008361AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD4DEF123532993008361AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD4DEF223532993008361AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD4DF0B23532993008361AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD4DF0C23532993008361AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD4DF0E23532993008361AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zaratma/zaratma.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"zaratma/Preview Content\"";
+				DEVELOPMENT_TEAM = QZHTVJPM43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = zaratma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alagoz.zaratma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD4DF0F23532993008361AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zaratma/zaratma.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"zaratma/Preview Content\"";
+				DEVELOPMENT_TEAM = QZHTVJPM43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = zaratma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alagoz.zaratma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AD4DF1123532993008361AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zaratmaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alagoz.zaratmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zaratma.app/zaratma";
+			};
+			name = Debug;
+		};
+		9AD4DF1223532993008361AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zaratmaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alagoz.zaratmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zaratma.app/zaratma";
+			};
+			name = Release;
+		};
+		9AD4DF1423532993008361AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zaratmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alagoz.zaratmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zaratma;
+			};
+			name = Debug;
+		};
+		9AD4DF1523532993008361AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zaratmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alagoz.zaratmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zaratma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD4DEDE2353298F008361AA /* Build configuration list for PBXProject "zaratma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4DF0B23532993008361AA /* Debug */,
+				9AD4DF0C23532993008361AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4DF0D23532993008361AA /* Build configuration list for PBXNativeTarget "zaratma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4DF0E23532993008361AA /* Debug */,
+				9AD4DF0F23532993008361AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4DF1023532993008361AA /* Build configuration list for PBXNativeTarget "zaratmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4DF1123532993008361AA /* Debug */,
+				9AD4DF1223532993008361AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4DF1323532993008361AA /* Build configuration list for PBXNativeTarget "zaratmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4DF1423532993008361AA /* Debug */,
+				9AD4DF1523532993008361AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD4DEDB2353298F008361AA /* Project object */;
+}
